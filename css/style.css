@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 16px;
+}
+
+nav {
+  background-color: rgba(0,0,0,1);
+  float: left;
+  position: relative;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 100%;
+  margin: 2px;
+}
+
+figcaption {
+  line-height: 1.2;
+  margin: 2px;
+  color: #606060;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.author {
+  padding-top: 30px;
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+h1 {
+  padding-top: 30px;
+  line-height: 1.5;
+  font-size: 2.1em;
+  font-weight: bold;
+  width: 100%;
+}
+
+h3 {
+  line-height: 1.6;
+  font-size: 1.4em;
+  color: #606060;
+  padding-bottom: 20px;
+}
+
+.story-text {
+  padding-top: 30px;
+  line-height: 1.5;
+  font-size: 1.2em
+}
+
+p {
+  padding-bottom: 20px;
+}
