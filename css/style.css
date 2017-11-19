@@ -1,8 +1,10 @@
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: 'Source Sans Pro', Helvetica;
+  font-family: 'Roboto', Helvetica;
   font-size: 16px;
+  letter-spacing: .6px;
+  padding-bottom: 100px;
 }
 
 /* nav bar */
@@ -12,10 +14,10 @@ nav {
   float: left;
   position: relative;
   width: 100%;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
-a:link, a:visited, a:hover, a:active{
+a:link, a:visited, a:hover, a:active {
   color: white;
   text-decoration: none;
 }
@@ -59,6 +61,7 @@ article {
 
 .medium-pic {
   width: 100%;
+  padding-top: 50px;
   margin: 2px;
 }
 
@@ -71,9 +74,9 @@ figcaption {
 /* headline, sub headline, and author */
 
 h1 {
-  padding-top: 30px;
+  padding-top: 50px;
   line-height: 1.5;
-  font-size: 2.1em;
+  font-size: 2.6em;
   font-weight: bold;
   width: 100%;
 }
@@ -101,4 +104,27 @@ h3 {
 
 p {
   padding-bottom: 20px;
+  font-weight:300;
+}
+
+/* sub headlines */
+
+h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+/* quotes */
+
+h5 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: #7a7a7a;
 }
